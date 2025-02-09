@@ -1,0 +1,15 @@
+- need to add pics
+- create a different page for dj'ing or keep this the one of Odoo/wordpress?
+
+- services: 
+
+
+- projects: 
+
+
+- contact:
+click on the emailaddress below to start writing an email
+mailto: 
+
+
+-for DJ page: I should list a 100 events at least (basically all the ones I remember)
