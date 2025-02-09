@@ -1,0 +1,29 @@
+source: 
+https://www.youtube.com/watch?v=Y7VblfjzJik
+
+src code: https://github.com/YousafKhan1/Portfolio-React-Tailwind/tree/main
+start at:
+https://nextjs.org/docs/app/getting-started/installation 
+
+
+Commmands used: 
+go here
+https://vite.dev/guide/
+
+npm create vite@latest
+then follow the prompts
+
+install tailwindcss:
+https://tailwindcss.com/docs/installation/using-vite
+
+open a .jsx file (new) and type 'rafce' to create the following code via shortcut:
+
+import React from 'react'
+
+const Navbar = () => {
+  return (
+    <div>Navbar</div>
+  )
+}
+
+export default Navbar
