@@ -3,39 +3,41 @@
 const services = [
   {
     id: 1,
-    title: 'Web Design',
-    description: 'Creating visually appealing and user-friendly web designs.',
+    title: "Frontend Development",
+    description: "Building responsive and interactive user interfaces.",
   },
   {
     id: 2,
-    title: 'Frontend Development',
-    description: 'Building responsive and interactive user interfaces.',
+    title: "Backend Development",
+    description: "Developing robust server-side logic and databases.",
   },
   {
     id: 3,
-    title: 'Backend Development',
-    description: 'Developing robust server-side logic and databases.',
+    title: "Full-Stack Development",
+    description: "Combining both frontend and backend development skills.",
   },
   {
     id: 4,
-    title: 'Full-Stack Development',
-    description: 'Combining both frontend and backend development skills.',
+    title: "Data Analytics",
+    description:
+      "Extracting useful information and insights from large amounts of data.",
   },
   {
     id: 5,
-    title: 'Content Writing',
-    description: 'Writing content for your business and companies.',
+    title: "App Deployment",
+    description: "Using cloud services to deploy and manage applications.",
   },
   {
     id: 6,
-    title: 'Digital Marketing',
-    description: 'Promote your business with our digital marketing team.',
+    title: "AI & Machine Learning",
+    description:
+      "Leveraging the power of AI & Machine Learning to build cool products",
   },
 ];
 
 const Services = () => {
   return (
-    <div className="bg-black text-white py-20" id="about">
+    <div className="bg-black text-white py-20" id="services">
       <div className="container mx-auto px-8 md:px-16 lg:px-24 ">
         <h2 className="text-4xl font-bold text-center mb-12">Services</h2>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
@@ -45,12 +47,22 @@ const Services = () => {
               className="bg-gray-800 px-6 pb-6 rounded-lg hover:shadow-lg transform 
               transition-transform duration-300 hover:scale-105"
             >
-              <div className="text-right text-2xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-green-600 to-blue-400">
+              <div className="text-right text-2xl mt-2 font-bold text-transparent bg-clip-text bg-gradient-to-r from-green-600 to-blue-400">
                 {service.id}
               </div>
-              <h3 className="">
-
+              <h3
+                className="mt-2 text-2xl font-bold text-transparent bg-clip-text 
+              bg-gradient-to-r from-green-400 to-blue-500"
+              >
+                {service.title}
               </h3>
+              <p className="mt-2 text-gray-300">{service.description}</p>
+              <a
+                href="#"
+                className="mt-4 inline-block text-green-400 hover:text-blue-500"
+              >
+                Read More
+              </a>
             </div>
           ))}
         </div>

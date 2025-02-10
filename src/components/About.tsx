@@ -1,5 +1,5 @@
 // import React from 'react'
-import AboutImage from '../assets/aboutme-image.png';
+import AboutImage from "../assets/aboutme-image.png";
 
 const About = () => {
   return (
@@ -42,29 +42,54 @@ const About = () => {
                   <div className="bg-gradient-to-r from-green-400 to-blue-500 h-2.5 rounded-full transform transition-transform duration-300 hover:scale-105 w-9/12"></div>
                 </div>
               </div>
+              <div className="flex items-center">
+                <label htmlFor="htmlandcss" className="w-2/12">
+                  Docker
+                </label>
+                <div className="grow bg-gray-800 rounded-full h-2.5">
+                  <div className="bg-gradient-to-r from-green-400 to-blue-500 h-2.5 rounded-full transform transition-transform duration-300 hover:scale-105 w-9/12"></div>
+                </div>
+              </div>
+              <div className="flex items-center">
+                <label htmlFor="htmlandcss" className="w-2/12">
+                  Matlab
+                </label>
+                <div className="grow bg-gray-800 rounded-full h-2.5">
+                  <div className="bg-gradient-to-r from-green-400 to-blue-500 h-2.5 rounded-full transform transition-transform duration-300 hover:scale-105 w-9/12"></div>
+                </div>
+              </div>
+              <div className="flex items-center">
+                <label htmlFor="htmlandcss" className="w-2/12">
+                  Python
+                </label>
+                <div className="grow bg-gray-800 rounded-full h-2.5">
+                  <div className="bg-gradient-to-r from-green-400 to-blue-500 h-2.5 rounded-full transform transition-transform duration-300 hover:scale-105 w-9/12"></div>
+                </div>
+              </div>
             </div>
             <div className="mt-12 flex justify-between text-center">
               <div
                 className="text-2xl font-bold text-transparent bg-clip-text 
                 bg-gradient-to-r from-green-400 to-blue-500"
               >
-                3+
+                5+
                 <h3>Years of Experience</h3>
               </div>
               <div
                 className="text-2xl font-bold text-transparent bg-clip-text 
                 bg-gradient-to-r from-green-400 to-blue-500"
               >
-                50+
+                10+
                 <h3>Projects Completed</h3>
               </div>
-              <div
+              {/* add happy clients later */}
+              {/* <div
                 className="text-2xl font-bold text-transparent bg-clip-text 
                 bg-gradient-to-r from-green-400 to-blue-500"
               >
                 10+
                 <h3>Happy Clients</h3>
-              </div>
+              </div> */}
             </div>
           </div>
         </div>
