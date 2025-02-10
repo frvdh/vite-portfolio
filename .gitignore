@@ -23,6 +23,6 @@ dist-ssr
 *.sln
 *.sw?
 
-Notes.txt
+/Notes.txt
 
-todo.txt
+/todo.txt
